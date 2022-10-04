@@ -30,18 +30,21 @@ main {
 
 .card {
   background-color: var(--light-gray-color);
-  max-width: 300px;
+  max-width: 320px;
+  min-hieght:495px;
   display: flex;
   flex-direction: column;
   background-color: var(--white-color);
-  padding: 10px;
+  padding: 16px;
   padding-bottom: 1.5rem;
   border-radius: var(--border-radius);
-  gap: 1rem;
+  gap: 30px;
   box-shadow: 5px 10px 10px -10px var(--grayish-blue);
 }
 img {
   border-radius: var(--border-radius);
+  width:286px;
+  aspect-ratio:1/1;
 }
 
 .main {
