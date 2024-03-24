@@ -12,12 +12,14 @@
   --light-gray-color: hsl(212, 45%, 89%);
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
-  --border-radius: 15px;
+  --border-radius: 12px;
   --box-shadow-color: rgba(58, 60, 62, 0.32);
+  --padding:16px;
+  --fontsize:15px;
 }
 
 body {
-  font-size: 15px;
+  font-size: var(--fontsize);
   font-family: "Outfit", sans-serif;
   background-color: var(--light-gray-color);
 }
@@ -35,7 +37,7 @@ main {
   display: flex;
   flex-direction: column;
   background-color: var(--white-color);
-  padding: 16px;
+  padding: var(--padding);
   padding-bottom: 1.5rem;
   border-radius: var(--border-radius);
   gap: 30px;
@@ -45,6 +47,8 @@ img {
   border-radius: var(--border-radius);
   width:286px;
   aspect-ratio:1/1;
+  padding-bottom:0;
+  display:inline-block;
 }
 
 .main {
