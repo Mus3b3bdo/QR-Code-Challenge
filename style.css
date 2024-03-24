@@ -23,7 +23,7 @@ body {
 }
 
 main {
-  min-height: 100vh;
+  min-height: 100svh;
   display: grid;
   place-items: center;
 }
@@ -31,7 +31,7 @@ main {
 .card {
   background-color: var(--light-gray-color);
   max-width: 320px;
-  min-hieght:495px;
+  min-hieght:500px;
   display: flex;
   flex-direction: column;
   background-color: var(--white-color);
